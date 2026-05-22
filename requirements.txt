@@ -9,3 +9,4 @@ streamlit-folium
 fpdf2
 matplotlib
 seaborn
+streamlit-javascript

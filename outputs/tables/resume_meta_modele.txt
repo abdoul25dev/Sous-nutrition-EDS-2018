@@ -1,0 +1,17 @@
+                             Logit Regression Results                            
+=================================================================================
+Dep. Variable:     Y_global_malnutrition   No. Observations:                 3806
+Model:                             Logit   Df Residuals:                     3802
+Method:                              MLE   Df Model:                            3
+Date:                   Fri, 22 May 2026   Pseudo R-squ.:                 0.08305
+Time:                           10:28:13   Log-Likelihood:                -2169.4
+converged:                          True   LL-Null:                       -2365.9
+Covariance Type:               nonrobust   LLR p-value:                 7.332e-85
+==================================================================================================
+                                     coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                             -2.4381      0.113    -21.593      0.000      -2.659      -2.217
+prob_Y1_retard_croissance          5.0267      0.466     10.782      0.000       4.113       5.940
+prob_Y2_amaigrissement             0.3360      0.874      0.385      0.701      -1.376       2.048
+prob_Y3_insuffisance_ponderale     2.5465      1.613      1.578      0.114      -0.616       5.709
+==================================================================================================
